@@ -1,0 +1,53 @@
+/* .table {
+  padding: 10rem;
+}
+
+.search {
+  padding: 5rem;
+} */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.navbar {
+  display: flex;
+  padding: 10px;
+}
+
+.navbar__button {
+  margin: 8px;
+  padding: 8px;
+  background-color: skyblue;
+  border: 0px;
+}
+
+.groundTable {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.title {
+  border-bottom: 5px double gray;
+}
+
+.disabled-date {
+  pointer-events: none;
+  background-color: gray;
+}
+
+.datePickerContainer {
+  display: flex;
+}
+.react-datepicker {
+  height: 100%;
+}
+.react-datepicker__time-container {
+  /* border: 1px solid red; */
+  /* height: 100%; */
+}
+.react-datepicker__time .react-datepicker__time-box {
+  /* border: 1px solid red; */
+  /* height: 90%; */
+}
